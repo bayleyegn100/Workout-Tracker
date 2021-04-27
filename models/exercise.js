@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
+// attributes with their respective properties
 const WorkoutSchema = new Schema({
     exercises: [{
         name: {
@@ -31,6 +32,7 @@ const WorkoutSchema = new Schema({
         default: Date.now
     }
 });
+// exporting 
 const Workout = mongoose.model("Workout", WorkoutSchema);
 module.exports = Workout;
 
