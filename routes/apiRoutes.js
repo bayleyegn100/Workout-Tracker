@@ -1,3 +1,4 @@
+// imported
 const db = require("../models");
 const router = require("express").Router();
 // Add new exercises to a new workout plan.
@@ -28,21 +29,21 @@ router.post("/workouts", async (req, res) => {
 
 // getWorkoutsInRange
 router.get("/workouts/range", async (req, res) => {
-try {
-    const workouts = await db.Workout.aggregate([
-        {
-            $addFields: {
-                totalDuration: {
-                    $sum: "$exercises.duration"
+    try {
+        const workouts = await db.Workout.aggregate([
+            {
+                $addFields: {
+                    totalDuration: {
+                        $sum: "$exercises.duration"
+                    }
                 }
             }
-        }
-    ]).limit(7);
- res.json(workouts);
+        ]).limit(7);
+        res.json(workouts);
 
-}catch (err) {
-    res.status(500).json(err);
-}
+    } catch (err) {
+        res.status(500).json(err);
+    }
 })
 
 // Gettin all workout EX.
