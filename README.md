@@ -37,7 +37,11 @@ Try to read and watch relevant materials, tutorials and practice, practice, ....
 
 I checked the application for many times, and it works well. If you want you can click on a deployed live URL and have a look on a few screen shots.
 
+<<<<<<< HEAD
 You can click on the following live URL:https://fast-forest-21283.herokuapp.com/stats
+=======
+You can click on the following live URL:https://fast-forest-21283.herokuapp.com/
+>>>>>>> 3e2893bcf33cc0eaac8ca539c72d54ac9764750a
 ![image](/img/stats.jpg)
 
 ## Lesson-learned
