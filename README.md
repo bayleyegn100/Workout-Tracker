@@ -37,7 +37,7 @@ Try to read and watch relevant materials, tutorials and practice, practice, ....
 
 I checked the application for many times, and it works well. If you want you can click on a deployed live URL and have a look on a few screen shots.
 
-You can click on the following live URL:https://vast-falls-81756.herokuapp.com/
+You can click on the following live URL:https://fast-forest-21283.herokuapp.com/stats
 ![image](/img/stats.jpg)
 
 ## Lesson-learned
