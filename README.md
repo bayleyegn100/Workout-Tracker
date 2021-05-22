@@ -18,7 +18,7 @@ I developed a backend code for the workout tracker app. By using this app it is 
 The application designed for any one who want to use it. To develop this application, 
 I used Javascript, a software registry and software package manager and installer called Node Package Manager (npm), express, Mongo data base, Mongoose schema, node.js and other relevant node.js frameworks. 
 
-![image](/img/Homepage.jpg)
+![image](img/Homepage.jpg)
 
 ## Instructions
 
@@ -27,7 +27,7 @@ If you interested you can use and start tracking your workouts. If you want to t
 ## Usage 
 
 You do not have a limitation to use this application. As you see the license section at the top of this file it is open source to use, copy, modify, and/or distribute this app for any purpose. 
-![image](/img/addexercise.jpg)
+![image](img/addexercise.jpg)
 
 ## Guidelines: 
 
@@ -37,7 +37,7 @@ Try to read and watch relevant materials, tutorials and practice, practice, ....
 
 I checked the application for many times, and it works well. If you want you can click on a deployed live URL and have a look on a few screen shots.
 You can click on the following live URL:https://fast-forest-21283.herokuapp.com/stats
-![image](/img/stats.jpg)
+![image](img/stats.jpg)
 
 ## Lesson-learned
 
